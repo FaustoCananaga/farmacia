@@ -29,12 +29,18 @@ export function Cabecalho(){
  
 
               <div className='space-y-6'>
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">Cuidar da sua saúde é a nossa prioridade</h1>
-                <p className="lg:text-lg">Tudo o que você precisa, da farmácia até sua casa, com segurança, confiança e atendimento humanizado.</p>
+                <h1 data-aos="fade-down" className="text-3xl md:text-4xl lg:text-5xl font-bold">Cuidar da sua saúde é a nossa prioridade</h1>
+                <p data-aos="fade-right" className="lg:text-lg">Tudo o que você precisa, da farmácia até sua casa, com segurança, confiança e atendimento humanizado.</p>
              
              
               
-                  <a className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2" href="# ">
+                  <a 
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  
+                  href={'https://wa.me/949310165?text=Gostaria de obter mais informações'}
+                  target='_blank'
+                  className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2" >
                     <WhatsappLogo className='w-5 h-5'/>
                     Contacto via whatsApp</a>
             

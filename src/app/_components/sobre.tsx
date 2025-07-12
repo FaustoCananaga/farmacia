@@ -6,7 +6,7 @@ import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
 
 export function Sobre(){
     return(
-        <section className="bg-[#FDf6ec] py-16">
+        <section className="bg-[#f8f5f3] py-16">
             <div className="container mx-auto px-4 ">
 
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 items-center'>
@@ -14,7 +14,10 @@ export function Sobre(){
              
 
 
-                <div className='relative'>
+                <div 
+     data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className='relative'>
 
                 <div className='relative w-full h-[400px] rounded-3xl overflow-hidden'>
                     <Image
@@ -42,7 +45,10 @@ export function Sobre(){
 
                 </div>
 
-                <div className='space-y-6 mt-10 '>
+                <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom"
+                
+                className='space-y-6 mt-10 '>
                     <h2 className='text-4xl font-bold '>SOBRE</h2>
                     <p className='text-justify'>
                         Ótimo que você chegou até o passo do Mi Unlock Tool! O problema do código de verificação por SMS que nunca chega é comum, especialmente com números de fora da China, como Angola, Brasil, etc. Aqui vão as causas prováveis e como resolver:
