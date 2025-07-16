@@ -1,6 +1,6 @@
 import { Check, MapPin } from 'lucide-react'
-import sobre1Image from '../../../public/about-1.png'
-import sobre2Image from '../../../public/about-2.png'
+import sobre1Image from '../../../public/about-1.jpg'
+import sobre2Image from '../../../public/about-2.jpg'
 import Image from 'next/image'
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
 
@@ -51,23 +51,25 @@ export function Sobre(){
                 className='space-y-6 mt-10 '>
                     <h2 className='text-4xl font-bold '>SOBRE</h2>
                     <p className='text-justify'>
-                        Ótimo que você chegou até o passo do Mi Unlock Tool! O problema do código de verificação por SMS que nunca chega é comum, especialmente com números de fora da China, como Angola, Brasil, etc. Aqui vão as causas prováveis e como resolver:
-                    </p>
+
+                        Na <span className='font-bold text-blue-400'>PLUS FRAMA</span> , cuidamos da sua saúde com responsabilidade, proximidade e dedicação. Com uma equipe de profissionais qualificados e atenciosos, oferecemos atendimento personalizado e uma ampla gama de medicamentos, produtos de higiene, dermocosméticos, suplementos e itens para o bem-estar do seu dia a dia.
+
+                        </p>    
+                <p> A nossa missão é promover saúde e qualidade de vida.</p>      
+                       
+                    
 
                     <ul className='space-y-4'>
                         <li className='flex items-center gap-2s'>
-                            <Check className='text-red-500'/>
-                            Aberto deste 2020
+                            ✅ Aberto 24/7 – Atendimento sem interrupções.
                         </li>
 
                         <li className='flex items-center gap-2s'>
-                            <Check className='text-red-500'/>
-                            Equipe com mais de 20 médicos
+                            ✅ Entrega ao domicílio – Receba seus medicamentos no conforto de sua casa.
                         </li>
 
                         <li className='flex items-center gap-2s'>
-                            <Check className='text-red-500'/>
-                            Qualidade é a nossa prioridade
+                            ✅ Atendimento humanizado – Tratamos cada cliente com respeito e atenção.
                         </li>
 
                        <div className='flex gap-2'>
@@ -78,7 +80,7 @@ export function Sobre(){
 
                         <a href="#" className='flex items-center justify-center w-fit gap-2 px-4 py-2'>
                             <MapPin className='w-5 h-5 text-black'/>
-                            Endereço da loja
+                            Boa esperança, Chingo - Sumbe.
                         </a>
                        </div>
 

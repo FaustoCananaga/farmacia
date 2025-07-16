@@ -1,13 +1,13 @@
 
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
-import dogImage from '../../../public/hero-dog.webp'
-import gatinho from '../../../public/cat-hero.png'
+import dogImage from '../../../public/hero-dog.png'
+import cruz from '../../../public/cruz.png'
 import Image from 'next/image'
 
 export function Cabecalho(){
 
     return(
-      <section className="bg-[#E84C3D] text-white relative overflow-x-hidden ">
+      <section className="bg-[#249c22] text-white relative overflow-x-hidden ">
 
         <div>
           <Image
@@ -37,10 +37,10 @@ export function Cabecalho(){
                   <a 
                   data-aos="fade-up"
                   data-aos-duration="3000"
-                  
+
                   href={'https://wa.me/949310165?text=Gostaria de obter mais informações'}
                   target='_blank'
-                  className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2" >
+                  className="bg-amber-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2" >
                     <WhatsappLogo className='w-5 h-5'/>
                     Contacto via whatsApp</a>
             
@@ -49,10 +49,10 @@ export function Cabecalho(){
                   <p className="text-sm mb-4"> <b className="bg-black text-white px-2 py-1 rounded-md mr-1">5% </b> de desconta na sua primeira compra</p>
                
                <div className='flex mt-8'>
-                    <div className='w-32 hidden lg:block'>
+                    <div className='ml-8 w-10 h-10 hidden lg:block'>
                         <Image
-                          src={gatinho}
-                          alt='Foto do gato'
+                          src={cruz}
+                          alt='Foto de uma cruz'
                           className='object-fill'
                           quality={100}
                           priority

@@ -6,26 +6,26 @@ import { WhatsappLogo } from "@phosphor-icons/react"
 
 const services =[
     {
-        title:"Banho e Tosa",
-        descricao:"Inclui Banho Com Produtos especificos para tipo de Pelagem e Pela do animal",
-        duracao:"1h",
+        title:"Venda de Medicamentos",
+        descricao:"Oferecemos uma ampla linha de medicamentos com orientação profissional para garantir o uso seguro e eficaz. Aqui, você encontra desde os produtos mais comuns até os de uso controlado, sempre com atendimento responsável.",
+        duracao:"5 min",
         price:"$50",
         icon: <Scissors/>,
         linkText:" Olá vi no Site Sobre o Banho e Gostaria de mais Informações",
 
     },
     {
-        title:"Seringa",
-        descricao:"Inclui Banho de pneu marroto sem estress Com Produtos especificos para tipo de Pelagem e Pela do animal",
-        duracao:"5h",
+        title:"Entrega em Domicílio",
+        descricao:"Comodidade para quem não pode sair de casa. Solicite seus produtos por telefone, WhatsApp ou pelo site e receba com segurança e rapidez no conforto do seu lar.",
+        duracao:"1h",
         price:"$500",
         icon: <Syringe/>,
         linkText:" Olá vi no Site Sobre o Banho e Gostaria de mais Informações",
 
     },
     {
-        title:"Carro de Tax",
-        descricao:"Inclui Banho Com Produtos especificos para tipo de Pelagem e Pela do animal",
+        title:"Higiene, Beleza e Bem-estar",
+        descricao:"Além de medicamentos, oferecemos produtos de cuidado pessoal, dermocosméticos, suplementos e itens naturais para quem busca qualidade de vida e autoestima.",
         duracao:"2h",
         price:"$505",
         icon: <CarTaxiFront/>,
@@ -33,9 +33,9 @@ const services =[
 
     },
     {
-        title:"Hotel",
-        descricao:"Inclui Banho Com Produtos especificos para tipo de Pelagem e Pela do animal",
-        duracao:"3h",
+        title:"Aplicação de Injetáveis",
+        descricao:"Ambiente preparado e profissional qualificado para a aplicação segura de medicamentos injetáveis, conforme prescrição médica.",
+        duracao:"1h",
         price:"$485",
         icon: <Hotel/>,
         linkText:" Olá vi no Site Sobre o Banho e Gostaria de mais Informações",
@@ -81,7 +81,7 @@ export function Carrossel(){
                             {
                                 services.map((item, index) =>(
                                     <div key={index} className="flex-[0_0_100%] min-w-0 md:flex-[0_0_calc(100%/3)] px-3">
-                                        <article className="bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
+                                        <article className="bg-[#082905] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
                                             <div className="flex-1 flex items-start justify-between">
                                                 
                                                 <div className="_flex gap-3">

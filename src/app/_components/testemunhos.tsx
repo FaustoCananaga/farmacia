@@ -2,7 +2,7 @@
 import useEmblaCarousel from "embla-carousel-react"
 import { ChevronLeft, ChevronRight, Scissors, Syringe, CarTaxiFront, Hotel, Clock, Import } from "lucide-react"
 import { WhatsappLogo } from "@phosphor-icons/react"
-import autor1 from '../../../public/tutor1.png'
+import autor1 from '../../../public/tutor1.jpg'
 import autor2 from '../../../public/tutor2.jpg'
 import Image from "next/image"
 
@@ -10,25 +10,33 @@ import Image from "next/image"
 const testemunhas =[
     {
        
-        mensagem:"Em 10 de Dezembro de 1956, um grupo de patriotas angolanos deu a conhecer o Manifesto do amplo Movimento Popular de Libertação de Angola (MPLA).",
-        autor:"Fausto Cananga",
-        cargo:"CEO",
+        mensagem:"💬 “Sempre fui muito bem atendida. A equipe é atenciosa e os produtos chegam rápido. Recomendo de olhos fechados!”",
+        autor:"Carla Domingos",
+        cargo:"Enfermeira no Hospital São Lucas",
         image: autor1,
 
     },
     {
        
-        mensagem:"Se quiser, posso te orientar passo a passo conforme o tipo de pasta ou arquivo que você quer visualizar ou recuperar (por exemplo: fotos, documentos, pastas do iCloud, etc.). Basta me dizer o que exatamente desapareceu ou foi ocultado.",
-        autor:"Josefina Ernesto",
-        cargo:"Gestora de Trafego",
+        mensagem:"💬 “A Plus Farma se tornou minha farmácia de confiança. Além dos preços justos, têm uma linha completa de suplementos que uso no dia a dia.”",
+        autor:" Sandra Lopes",
+        cargo:"Professora de Educação Infantil",
         image: autor2,
 
     },
     {
        
-        mensagem:"Apelando para a constituição, em todo o país, de muitas organizações independentes entre si, de modo a poderem resistir melhor e iludir a vigilância das forças coloniais de repressão ocupantes. Esta é a data oficial da sua fundação.",
-        autor:"Mateus dos Santos",
-        cargo:"Ferreiro",
+        mensagem:"💬 “Como mãe, sei o quanto é importante contar com uma farmácia que realmente se importa. E a Plus Marma nunca me deixou na mão.”",
+        autor:"Dona Emília Tavares",
+        cargo:"Aposentada",
+        image: autor2,
+
+    },
+     {
+       
+        mensagem:"💬 “Precisei de ajuda com uma receita controlada e fui tratado com muito respeito e profissionalismo. Excelente serviço.”",
+        autor:" Dr. André Vicente",
+        cargo:"Advogado",
         image: autor2,
 
     },
