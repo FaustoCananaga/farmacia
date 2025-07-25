@@ -64,7 +64,7 @@ export function Testemunhos(){
 
 
     return(
-        <section className="bg-amber-300 py-16">
+        <section className="bg-[#ffffff] py-16">
             <div className="container mx-auto px-4">
 
                 <h2 className="text-4xl font-bold mb-12 text-center">Depoimentos</h2>

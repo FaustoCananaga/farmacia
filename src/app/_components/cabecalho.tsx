@@ -47,7 +47,7 @@ export function Cabecalho(){
 
               <div className="mt-8">
                   <p className="text-sm mb-4"> <b className="bg-black text-white px-2 py-1 rounded-md mr-1">5% </b> de desconta na sua primeira compra</p>
-               
+                
                <div className='flex mt-8'>
                     <div className='ml-8 w-10 h-10 hidden lg:block'>
                         <Image
