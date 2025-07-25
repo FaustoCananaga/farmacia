@@ -40,7 +40,7 @@ export function Cabecalho(){
 
                   href={'https://wa.me/949310165?text=Gostaria de obter mais informações'}
                   target='_blank'
-                  className="bg-amber-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2" >
+                  className="bg-[#043903] px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2" >
                     <WhatsappLogo className='w-5 h-5'/>
                     Contacto via whatsApp</a>
             
