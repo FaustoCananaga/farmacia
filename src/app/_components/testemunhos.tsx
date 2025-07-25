@@ -4,6 +4,8 @@ import { ChevronLeft, ChevronRight, Scissors, Syringe, CarTaxiFront, Hotel, Cloc
 import { WhatsappLogo } from "@phosphor-icons/react"
 import autor1 from '../../../public/tutor1.jpg'
 import autor2 from '../../../public/tutor2.jpg'
+import autor3 from '../../../public/tutor5.jpg'
+import autor4 from '../../../public/tutor1.png'
 import Image from "next/image"
 
 
@@ -19,9 +21,9 @@ const testemunhas =[
     {
        
         mensagem:"💬 “A Plus Farma se tornou minha farmácia de confiança. Além dos preços justos, têm uma linha completa de suplementos que uso no dia a dia.”",
-        autor:" Sandra Lopes",
-        cargo:"Professora de Educação Infantil",
-        image: autor2,
+        autor:" Fausto Cananga",
+        cargo:"Atleta",
+        image: autor3,
 
     },
     {
@@ -37,7 +39,7 @@ const testemunhas =[
         mensagem:"💬 “Precisei de ajuda com uma receita controlada e fui tratado com muito respeito e profissionalismo. Excelente serviço.”",
         autor:" Dr. André Vicente",
         cargo:"Advogado",
-        image: autor2,
+        image: autor4,
 
     },
 
